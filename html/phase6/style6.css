@@ -1,0 +1,12 @@
+p{
+    color:rebeccapurple;
+    font-variation-settings: 24px;
+}
+h1{
+    color: red;
+    font-variant: var(24px);
+}
+strong { 
+    text-decoration: underline;
+    color: red;
+} 
