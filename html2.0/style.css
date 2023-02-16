@@ -127,3 +127,6 @@ h3 {
 .social img:hover{
     transform:scale(1.2);
 }
+.container-images{
+text-align: right;
+}
