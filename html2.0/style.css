@@ -34,7 +34,6 @@ span {
 }
 
 h2 {
-    font: size 2.2rem;
     cursor: pointer;
 }
 
@@ -72,7 +71,7 @@ nav ul li a:hover {
     font-weight: bold;
     padding: 0.8rem 1.87rem;
     border-radius: 30px;
-    border: 2px solid var(transparent);
+    border: 2px solid rgba(0, 0, 0, 0);
     transition: 0.4s;
 }
 
@@ -88,11 +87,9 @@ nav ul li a:hover {
     align-items: center;
 }
 
-.container-texts {
+content .container-texts {
     position: relative;
     bottom: 70px;
-
-
 }
 
 
@@ -108,7 +105,6 @@ h2 {
 h3 {
     font-size: 1.25rem;
     letter-spacing: 0.12rem;
-    margin: "bottom" 2px;
 }
 
 #btnjouer {
@@ -127,6 +123,13 @@ h3 {
 .social img:hover{
     transform:scale(1.2);
 }
-.container-images{
-text-align: right;
+.about{
+    background-color: #8f0654;
+    display: flex;
+    display: flex;
+   
+}
+.image3{
+    height: 350px;
+    margin-left: 160px;
 }
