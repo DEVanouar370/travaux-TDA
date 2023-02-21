@@ -7,3 +7,7 @@ let nombre1 = prompt("quel est le premier nombre");
 let nombre2 = prompt("quel est le deuxieme nombre");
 let resultat = nombre1*nombre2;
 alert("le resultat est :" + resultat);
+
+let degrescelsius = prompt("quel est la temperature");
+let calcule = (degrescelsius*9/5)+32; 
+alert("resultat " + calcule);
