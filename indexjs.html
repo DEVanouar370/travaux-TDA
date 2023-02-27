@@ -1,51 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Objet Navigator - Exemples</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
 </head>
+<h1>Table de Multiplication</h1>
+<input type="number" name="mult" id="mult">
+<button onclick="tableMultiplication(document.getElementById('mult').value)">Le numero a multipluer</button>
+
+
+
+
+<script src="javascript/javascript.js"></script>
+
+
 <body>
-<script type="text/JavaScript" language="JavaScript">
-var version = navigator.appVersion;
-console.log("Le code name de votre browser est :"    + navigator.appCodeName);
-console.log("Le nom ou la marque du browser est :"   + navigator.appName); 
-console.log("Les informations sur la version sont :" + version); 
-console.log("Le browser a comme user-agent :"        + navigator.userAgent);
-console.log("");
-
-if (version.indexOf('Win') > -1) 
-{ 
-    console.log("<br />Vous etes sous l'environnement Windows");
-    console.log("<br />");
-}
-
-if (navigator.userAgent.indexOf('Firefox') > -1) 
-{ 
-console.log("Vous utilisez un navigateur FireFox");
-} 
-else if (version.indexOf('Chrome') > -1) 
-{ 
-    console.log("Vous utilisez un navigateur Chrome");
-} 
-else if (version.indexOf('MSIE') > -1) 
-{ 
-    console.log("Vous utilisez un navigateur Microsoft Internet Explorer");
-} 
-else 
-{
-    console.log("Vous utilisez un navigateur inconnu");
-}
-var maFenetre = [window.]open(url [, nom [, caracteristiques[, replace]]]);
-
-var myDate = new Date() ;   // Date du jour
-var myDate = new Date(millisecondes) ;  // Date depuis le 1er janvier 1970
-var myDate = new Date(annee, mois, jour) ;
-var myDate = new Date(annee, mois, jour, heure, minute, seconde);
-var myDate = new Date(chaîne de caractère représentant une date);
-
-
-
-
-
-</script>
+    
 </body>
 </html>
