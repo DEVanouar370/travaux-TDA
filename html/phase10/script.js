@@ -20,8 +20,9 @@ function valideForm() {
         alert("veuillez renseigner une date");
         return false;
     }
-    if (!cp.value) {
-        alert("veuillez renseigner votre code postale");
+    var filtreCP = new RegExp(/^[0-9]{5}$/);
+    if (!filtreCP.test(cp.value)) {
+        alert("veuillez renseigner un code postal valide");
         return false;
     }
     if (!adresse.value) {
@@ -32,8 +33,9 @@ function valideForm() {
         alert("veuillez renseigner une ville");
         return false;
     }
-    if (!email.value) {
-        alert("veuillez renseigner un email");
+    var filtreEmail = new RegExp('^[\w-\.]+@([\w-]+\.)+[\w-]$');
+    if (!filtreEmail.test(email.value)) {
+        alert("veuillez renseigner un email valide");
         return false;
     }
 
